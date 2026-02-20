@@ -1,0 +1,22 @@
+# OS
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# PowerShell artifacts
+*.ps1xml
+*.clixml
+
+# Python cache (if tooling scripts are added later)
+__pycache__/
+*.pyc
