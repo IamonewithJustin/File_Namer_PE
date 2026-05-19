@@ -1,22 +1,10 @@
-# OS
+# Windows
 Thumbs.db
 Desktop.ini
 
-# Editor/IDE
-.vscode/
-.idea/
-*.code-workspace
+# Git
+.git/
 
-# Logs and temp files
-*.log
-*.tmp
-*.temp
+# Backup files
 *.bak
-
-# PowerShell artifacts
-*.ps1xml
-*.clixml
-
-# Python cache (if tooling scripts are added later)
-__pycache__/
-*.pyc
+*~

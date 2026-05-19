@@ -1,8 +1,5 @@
 @echo off
-echo Starting File Renamer...
-powershell -ExecutionPolicy Bypass -File "%~dp0FileRenamer.ps1"
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo An error occurred. Press any key to exit...
-    pause >nul
-)
+REM Batch file to launch the Biotech Version File Renamer
+REM This bypasses execution policy for the PowerShell script
+
+powershell.exe -ExecutionPolicy Bypass -File "%~dp0FileRenamer.ps1"
