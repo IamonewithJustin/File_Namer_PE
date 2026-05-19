@@ -1,29 +1,44 @@
-# File_Namer_PE
+# Name_Gen
 
-Simple file naming utility for PE workflows.
+Contains both program variants in one branch with clear filenames.
+
+## Variants
+
+- PE: `FileRenamer_PE.ps1` and `FileRenamer_PE.bat`
+- Biotech: `FileRenamer_Biotech.ps1` and `FileRenamer_Biotech.bat`
 
 ## Requirements
 
 - Windows with PowerShell 5.1+.
 - Keep the `lib` folder next to the scripts with these files:
-	- `lib/BouncyCastle.Crypto.dll`
-	- `lib/itextsharp.dll`
+  - `lib/BouncyCastle.Crypto.dll`
+  - `lib/itextsharp.dll`
 
 ## Run
 
-Use either launcher from the project root:
+- PE version:
 
-- PowerShell:
+  ```bat
+  FileRenamer_PE.bat
+  ```
 
-	```powershell
-	.\FileRenamer.ps1
-	```
+  or
 
-- Batch file:
+  ```powershell
+  .\FileRenamer_PE.ps1
+  ```
 
-	```bat
-	FileRenamer.bat
-	```
+- Biotech version:
+
+  ```bat
+  FileRenamer_Biotech.bat
+  ```
+
+  or
+
+  ```powershell
+  .\FileRenamer_Biotech.ps1
+  ```
 
 If PowerShell script execution is blocked, run this once in PowerShell:
 
